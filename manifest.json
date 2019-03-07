@@ -1,0 +1,21 @@
+{
+    "name": "Chrome Gold Extension Cord",
+    "version": "1.0",
+    "description": "This is a mad description of a mad extension",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "images/img16.png",
+        "32": "images/img32.png",
+        "48": "images/img48.png",
+        "128": "images/img128.png"
+    },
+    "permissions": ["activeTab"]
+}
